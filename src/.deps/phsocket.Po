@@ -1,0 +1,195 @@
+phsocket.o: phsocket.c phsocket.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/types.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/features.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/uClibc_config.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/uClibc_arch_features.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/cdefs.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/types.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/wordsize.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/gcc/stddef.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/kernel_types.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/typesizes.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/pthreadtypes.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/sched.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/time.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/endian.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/endian.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/byteswap.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/byteswap.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/select.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/select.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/sigset.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/time.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/sysmacros.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/socket.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/uio.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/uio.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/socket.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/limits.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/gcc/limits.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/posix1_lim.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/local_lim.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/linux/limits.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/uClibc_local_lim.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/posix2_lim.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/sockaddr.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm/socket.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm/sockios.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm/ioctl.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm-generic/ioctl.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/ioctl.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/ioctls.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm/ioctls.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/ioctl-types.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/ttydefaults.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/netinet/in.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/stdint.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/wchar.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/in.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/arpa/inet.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/unistd.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/posix_opt.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/confname.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/getopt.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/errno.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/errno.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/linux/errno.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm/errno.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm-generic/errno-base.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/netdb.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/rpc/netdb.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/netdb.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/string.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/uClibc_clk_tck.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/time.h \
+ /home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/timeb.h
+
+phsocket.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/types.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/features.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/uClibc_config.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/uClibc_arch_features.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/cdefs.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/types.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/wordsize.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/gcc/stddef.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/kernel_types.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/typesizes.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/pthreadtypes.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/sched.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/time.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/endian.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/endian.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/byteswap.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/byteswap.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/select.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/select.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/sigset.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/time.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/sysmacros.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/socket.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/uio.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/uio.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/socket.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/limits.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/gcc/limits.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/posix1_lim.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/local_lim.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/linux/limits.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/uClibc_local_lim.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/posix2_lim.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/sockaddr.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm/socket.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm/sockios.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm/ioctl.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm-generic/ioctl.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/ioctl.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/ioctls.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm/ioctls.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/ioctl-types.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/ttydefaults.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/netinet/in.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/stdint.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/wchar.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/in.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/arpa/inet.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/unistd.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/posix_opt.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/confname.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/getopt.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/errno.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/errno.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/linux/errno.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm/errno.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/asm-generic/errno-base.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/netdb.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/rpc/netdb.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/netdb.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/string.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/bits/uClibc_clk_tck.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/time.h:
+
+/home/Rtl819xSource/toolchain/rsdk-1.5.5-4181-EB-2.6.30-0.9.30.3-110225/include/sys/timeb.h:
